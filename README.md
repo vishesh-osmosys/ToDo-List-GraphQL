@@ -2,7 +2,7 @@
 
 Basic Todo List Application created using Express, Node and PostgreSQL
 
-Functionalities provided via (Http Methods) REST Architecture:\
+Functionalities provided with Routes :\
 Create new task -> POST /todos\
 Read all tasks -> GET /todos\
 Read task by Id -> GET /todos/:task_id\
