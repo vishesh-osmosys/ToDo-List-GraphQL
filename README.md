@@ -1,6 +1,13 @@
 # ToDo-List-GraphQL
 
-Basic Todo List Application created using Express, Node and PostgreSQL
+Todo List Application created using Express, Node, PostgreSQL and GraphQL.
+
+Each task has follwing attributes :\
+task_id : Unique id of task\
+task_name : Name of task\
+description : Detail about task\
+status : Information if task is in progress or completed
+
 
 Functionalities provided with Routes :\
 Create new task -> POST /todos\
