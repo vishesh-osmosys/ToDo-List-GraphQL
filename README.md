@@ -2,7 +2,7 @@
 
 Todo List Application created using Express, Node, PostgreSQL and GraphQL.
 
-Each task has follwing attributes :\
+Request Body contains attributes that each task has :\
 task_id : Unique id of task\
 task_name : Name of task\
 description : Detail about task\
