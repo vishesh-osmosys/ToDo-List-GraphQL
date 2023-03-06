@@ -1,4 +1,4 @@
-const pool = require("../../db");
+const pool = require('../db');
 
 const updateTask = async (args) => {
     const result = await pool.query(

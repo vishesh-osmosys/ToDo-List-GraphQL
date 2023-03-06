@@ -1,4 +1,4 @@
-const pool = require("../../db");
+const pool = require('../db');
 require("dotenv").config();
 const table = process.env.table;
 

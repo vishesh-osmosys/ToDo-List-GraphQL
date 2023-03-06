@@ -1,4 +1,4 @@
-const pool = require("../../db");
+const pool = require('../db');
 
 const getTaskById = async (id) => {
     const task = await pool.query("SELECT * FROM todo_table WHERE task_id=$1", [

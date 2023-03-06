@@ -22,6 +22,5 @@ const port = process.env.server_port;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
 app.listen(port, () => console.log(`App listening on port ${port}`));
 startServer();
