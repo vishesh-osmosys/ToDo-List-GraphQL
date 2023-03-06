@@ -19,7 +19,7 @@ status : Information if task is in progress or completed
 
 ### getTaskById
 -> Used for reading a task with a specific Id\
--> User sends a request with body containing only Id\ 
+-> User sends a request with body containing only Id   
 -> The database searches for the user with the id and sends the response to backend
 
 ### getAllTasks
