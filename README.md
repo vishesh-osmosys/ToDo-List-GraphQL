@@ -9,7 +9,7 @@ task_name : Name of task\
 description : Detail about task\
 status : Information if task is in progress or completed
 
-## API's developed : 
+## API(s) developed : 
 
 ### createTask 
 -> Used for creating a task\
