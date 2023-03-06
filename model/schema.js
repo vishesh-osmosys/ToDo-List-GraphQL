@@ -11,7 +11,7 @@ const {
 const deleteTask = require("../todos/deleteTask");
 const getAllTasks = require("../todos/getAllTasks");
 const getTaskById = require("../todos/getTaskById");
-const postTask = require("../todos/postTask");
+const createTask = require("../todos/createTask");
 const updateTask = require("../todos/updateTask");
 
 const Task = new GraphQLObjectType({
@@ -54,7 +54,7 @@ const Mutation = new GraphQLObjectType({
                 status: { type: GraphQLString },
             },
             resolve: async (parentValue, args) => {
-                return await postTask(args);
+                return await createTask(args);
             },
         },
         deleteTask: {
